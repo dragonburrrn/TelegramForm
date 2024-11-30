@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/stars-472968_1920.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+a, button, input {
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+}
+
+.search-box {
+    width: 410px;
+    height: 46px;
+    background: linear-gradient(90.28deg, rgba(255, 255, 255, 0.2) 16.53%, rgba(255, 255, 255, 0.04) 69.26%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 100px;
+    display: flex;
+}   
+
+.search-btn {
+	color: #fff;
+	width: 10px;
+	height: 43px;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+
+}
+
+.search-txt{
+    width: 360px;
+    height: 43px;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.header_item {
+    padding: 0px 0px 0px 35px;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.headerButton {
+    padding: 0px 0px 0px 35px;
+}
+
+.headerButton:hover {
+    padding: 0px 0px 0px 35px;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-shadow: 0 0 5px #FFF,
+    0 0 10px #FFF,
+    0 0 15px #FFF,
+    0 0 20px #BFE2FF;
+}
+
+.solarsystem {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main>a {
+    width: 450px;
+    height: 450px;
+}
+
+.i {
+    width: 450px;
+    height: 450px;
+}
+
+.main>div{
+    width: 450px;
+    height: 120px;
+
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    color: #FFFFFF;
+}
+.main>a {
+    transition: 1s;
+   }
+.main>a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    
+    background-image: url(img/foot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logofoot {
+    padding-left: 80px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont {
+    width: 290px;
+    height: 85px;
+    padding-right: 80px;
+}
+
+.facebook:hover {
+    background-image: url(img/fb2.png);
+    background-size: cover;
+}
+
+.instagram:hover {
+    background-image: url(img/ins2.png);
+    background-size: cover;
+}
+
+.pinterest:hover {
+    background-image: url(img/pin2.png);
+    background-size: cover;
+}
+

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/stars-472968_1920.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+.row {
+    justify-content: center;
+    align-items: center;
+}
+a, button, input {
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.search-box {
+    width: 410px;
+    height: 46px;
+    background: linear-gradient(90.28deg, rgba(255, 255, 255, 0.2) 16.53%, rgba(255, 255, 255, 0.04) 69.26%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 100px;
+    display: flex;
+}   
+
+.search-btn {
+	color: #fff;
+	width: 10px;
+	height: 43px;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+
+}
+
+.search-txt{
+    width: 360px;
+    height: 43px;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.header_item {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+
+
+.headerButton:hover {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-shadow: 0 0 5px #FFF,
+    0 0 10px #FFF,
+    0 0 15px #FFF,
+    0 0 20px #BFE2FF;
+}
+
+.footer {
+    background-image: url(img/foot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logofoot {
+    padding-left: 80px;
+}
+
+
+.cont {
+    padding-right: 80px;
+}
+
+.facebook:hover {
+    background-image: url(img/fb2.png);
+    background-size: cover;
+}
+
+.instagram:hover {
+    background-image: url(img/ins2.png);
+    background-size: cover;
+}
+
+.pinterest:hover {
+    background-image: url(img/pin2.png);
+    background-size: cover;
+}
+
+.mercury {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.i {
+    width: 670px;
+    height: 670px;
+}
+
+p {
+    
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.p1 {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #FFFFFF;
+}
+
+.carousel-inner img {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+

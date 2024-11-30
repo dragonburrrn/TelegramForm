@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <head>
+		<meta charset = "utf-8">
+		<title> Pulsar </title>
+
+        <link href="css/stylefile.css" rel="stylesheet">
+    </head>
+
+    <body class="body">
+        <header>
+            <img class="logo" src="img/logo.png" alt="logo">
+            <div class="search-box">
+                <input class="search-txt" type="text" placeholder="Поиск">
+                <a class="search-btn" href="#"><img class="searchimg" src="img/Groupsearchimg1.png" alt="search"></a>
+            </div>
+            <div class="header_item headerButton"><a href="#">Ресурсы</a></div>
+            <div class="header_item headerButton"><a href="#">Контакты</a></div>
+        </header>  
+        <main class="main">
+            <img class="rocket" src="img/h.png" alt="rocket">
+            <div class="main-text"><p>Изучай Вселенную вместе с нами!</p></div>
+        </main>
+        <div class="star">
+            <div class="star-text">
+                <p>Путешествие <br> к другим звёздам</p>
+                <div class="letsgo">
+                    <div class = "lgButton"><a href="#">поехали</a></div>
+                </div>
+            </div>
+            <img class="sun" src="img/sun.png" alt="sun">
+        </div>
+        <div class="earthclass">
+            <img class="earth" src="img/earth.png" alt="earth">
+            <div class="earth-text">
+                <p>Путешествие <br> к другим планетам</p>
+                <div class="letsgo2">
+                    <div class = "lgButton2"><a href="planets.html">поехали</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="ending">
+            <div class="habble">
+                <div class="habble-text"><p>Фотоальбом бескрайнего космоса</p></div>
+                <img class="habblephoto" src="img/habble.png" alt="habble">
+                <div class="photo">
+                    <div class = "photoButton"><a href="#">фото</a></div>
+                </div>
+            </div>
+
+            <div class="man">
+                <div class="test-text"><p>Пройди тест на знание Вселенной</p></div>
+                <img class="testphoto" src="img/test1.png" alt="test">
+                <div class="test">
+                    <div class = "testButton"><a href="#">тест</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="form">
+            <button id="openModal">Подписаться на рассылку</button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Подписка на рассылку</h2>
+            
+            <form id="form-contact" method="POST" class="contact-form" autocomplete="off" enctype="multipart/form-data">
+                <label for="email">Введите ваш email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@mail.com">
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">Я согласен с обработкой персональных данных</label>
+                </div>
+
+                <button type="submit">Подписаться</button>
+            </form>
+        </div>
+    </div>
+        </div>
+        <footer class="footer">
+            <img class="logofoot" src="img/logo2.png" alt="logo">
+            <div class="social">
+                <img class="facebook" src="img/fb3.png" alt="facebook">
+                <img class="instagram" src="img/ins3.png" alt="instagram">
+                <img class="pinterest" src="img/pin3.png" alt="pinterest">
+            </div>
+            <img class="cont" src="img/cont1.png" alt="cont">
+        </footer>
+        
+        <script src="js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/telegramform/js/telegramform.js"></script>
+    </body>
+</html>
